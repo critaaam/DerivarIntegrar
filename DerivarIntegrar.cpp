@@ -1,10 +1,3 @@
-/*1. Raíces de Ecuaciones No Lineales
-2. Solución de Sistemas de Ecuaciones Lineales
-3. Interpolación
-4. Integración Numérica
-5. Derivación Numérica
-6. Solución Numérica de Ecuaciones Diferenciales Ordinarias*/
-
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -233,7 +226,7 @@ double integralPolinomica(int grado, double a, double b){
     }
     //Regla del trapecio
     double integral = 0;
-    int n = 100; // número de intervalos
+    int n = 100; // nÃºmero de intervalos
 
     double h = (b-a)/n;
 
